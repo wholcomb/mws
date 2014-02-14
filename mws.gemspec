@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "ruby-mws/version"
+require "mws/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ruby_mws"
+  s.name        = "mws"
   s.version     = MWS::VERSION
   s.authors     = ["Erik Lyngved", "Will Holcomb"]
   s.email       = ["elyngved@gmail.com", "will@dhappy.org"]

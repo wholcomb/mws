@@ -1,11 +1,11 @@
-ruby-mws
-========
+mws
+===
 
 by Erik Lyngved
 
 ### Read me!
 
-ruby-mws is a Ruby gem that wraps the Amazon Marketplace Web Service (MWS) API. Right now it only supports Amazon's Order and Inventory APIs.
+mws is a Ruby gem that wraps the Amazon Marketplace Web Service (MWS) API. Right now it only supports Amazon's Order and Inventory APIs.
 
 I made this gem for my own purposes, and it's not fully featured. Pull requests or bug reports are always welcome.
 

@@ -46,18 +46,18 @@ class String
   end
 end
 
-require 'ruby-mws/base'
-require 'ruby-mws/connection'
-require 'ruby-mws/exceptions'
-require 'ruby-mws/version'
+require 'mws/base'
+require 'mws/connection'
+require 'mws/exceptions'
+require 'mws/version'
 
-require 'ruby-mws/api/binary_parser'
+require 'mws/api/binary_parser'
 
-require 'ruby-mws/api/base'
-require 'ruby-mws/api/inventory'
-require 'ruby-mws/api/order'
-require 'ruby-mws/api/product'
-require 'ruby-mws/api/report'
-require 'ruby-mws/api/query'
-require 'ruby-mws/api/response'
-require 'ruby-mws/api/binary_response'
+require 'mws/api/base'
+require 'mws/api/inventory'
+require 'mws/api/order'
+require 'mws/api/product'
+require 'mws/api/report'
+require 'mws/api/query'
+require 'mws/api/response'
+require 'mws/api/binary_response'
