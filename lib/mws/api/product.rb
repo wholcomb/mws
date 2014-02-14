@@ -8,8 +8,8 @@ module MWS
         mods: [
           lambda do |response|
             response.map! do |p|
-              n = p.product.attribute_sets.item_attributes
-              n.asin = p.asin
+              n = p.product.try(:attribute_sets).try(:item_attributes)
+              n.asin = p.asin if n
               n
             end
           end
