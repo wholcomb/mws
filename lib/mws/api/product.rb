@@ -22,10 +22,12 @@ module MWS
         mods: [
           lambda do |response|
             response.map! do |p|
-              n = p.product.competitive_pricing
-              n.prices = n.competitive_prices.competitive_price
-              n.sales_rankings = p.product.sales_rankings
-              n.asin = p.asin
+              n = p.product.try(:competitive_pricing)
+              if n
+                n.prices = n.competitive_prices.competitive_price
+                n.sales_rankings = p.product.sales_rankings
+                n.asin = p.asin
+              end
               n
             end
           end
