@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ruby-mws/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ruby-mws"
+  s.name        = "ruby_mws"
   s.version     = MWS::VERSION
-  s.authors     = ["Erik Lyngved"]
-  s.email       = ["elyngved@gmail.com"]
+  s.authors     = ["Erik Lyngved", "Will Holcomb"]
+  s.email       = ["elyngved@gmail.com", "will@dhappy.org"]
   s.homepage    = "http://github.com/elyngved/ruby-mws"
   s.summary     = %q{RubyMWS Gem}
   s.description = %q{(Under development) This gem serves as a wrapper for Amazon.com's Marketplace Web Service (MWS) API. Visit http://github.com/elyngved/ruby-mws for documentation.}
